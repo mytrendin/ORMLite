@@ -1,11 +1,6 @@
 package com.example.rubs.ormlitedemo;
 
 import com.j256.ormlite.field.DatabaseField;
-
-/**
- * Created by Rubs on 17-May-17.
- */
-
 public class Information_Model {
 
     @DatabaseField(generatedId = true, columnName = "id")

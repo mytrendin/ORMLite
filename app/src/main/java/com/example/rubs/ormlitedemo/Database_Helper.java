@@ -10,10 +10,6 @@ import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
 
-/**
- * Created by Rubs on 17-May-17.
- */
-
 public class Database_Helper extends OrmLiteSqliteOpenHelper {
     private static final String DB_NAME = "information.db";
     private static final int DB_VERSION = 1;

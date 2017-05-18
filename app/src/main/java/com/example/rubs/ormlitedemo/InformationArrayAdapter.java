@@ -13,11 +13,6 @@ import android.widget.TextView;
 import com.j256.ormlite.dao.Dao;
 
 import java.util.List;
-
-/**
- * Created by Rubs on 17-May-17.
- */
-
 class InformationArrayAdapter extends ArrayAdapter<String> {
     private LayoutInflater layoutInflater;
     private List list;
